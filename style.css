@@ -65,6 +65,9 @@ font-weight: 400;
 line-height: 1.5;
 text-align: left;
 }
+.bottom-nav ul li:hover{
+  color: #1877f2;
+}
 
 .login-btn{
   background: #1877f2;
