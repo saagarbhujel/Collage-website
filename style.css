@@ -5,6 +5,7 @@
 }
 body{
     font-family: "Open Sans", sans-serif;
+    font-weight: 400;
 }
 
 .top-nav{
@@ -74,4 +75,83 @@ text-align: left;
     font-size: 14px;
     border-radius: 4px;
     color: white;
+}
+
+.hero-section{
+
+height: 100vh;
+}
+
+.text-slider{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background-color: #F5F5F5;
+  height: 5vh;
+}
+.text-slider strong{
+  color: red;
+}
+.text-slider marquee{
+  font-size: 15px;
+  
+  
+}
+.owl-prev,
+.owl-next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: white;  
+}
+
+.owl-prev {
+  left: 8rem;
+  
+}
+
+.owl-next {
+  right: 8rem;
+  
+}
+
+.owl-carousel .owl-nav button.owl-next,.owl-prev,  span {
+  color: #F5F5F5;
+  font-size: 6rem;
+}
+
+
+
+.owl-dots {
+  text-align: center;
+  padding-top: 15px;
+}
+.owl-dots button.owl-dot {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  display: inline-block;
+  background: #ccc;
+  margin: 0 3px;
+}
+.owl-dots button.owl-dot.active {
+  background-color: #ffffff;
+}
+.owl-dots button.owl-dot:focus {
+  outline: none;
+}
+.owl-nav button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(255, 255, 255, 0.38) !important;
+}
+span {
+    font-size: 70px;    
+    position: relative;
+    top: -5px;
+}
+.owl-nav button:focus {
+    outline: none;
 }
